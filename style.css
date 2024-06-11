@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.back-color{
+    width:100vw;
+    height: 100vh;
+    background-color: rgba(138, 43, 226,0.4);
+}
+.maNav{
+    padding: 20px 30px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-bloc-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.items>.item{
+   list-style: none;
+}
+.items>.item  a{
+   text-decoration: none;
+   color: black;
+   cursor: pointer;
+}
+.voir-plus{
+    background-color: blueviolet;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin-top: -2px;
+
+}
+.voir-plus>.item{
+    list-style: none;
+}
+.all-homepage{
+    width: 450px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.descrit{
+    line-height:45px;;
+}
+.btn{
+    width: 80px;
+    height: 20px;
+    padding: 10px 25px;
+    background-color: blueviolet;
+}
+.btn-dc{
+    border: none;
+    background-color: transparent;
+}
+
+
